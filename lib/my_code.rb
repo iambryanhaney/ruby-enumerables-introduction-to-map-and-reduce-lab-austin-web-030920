@@ -45,10 +45,10 @@ def reduce_to_total(source)
 end
 
 def reduce_to_all_true(source)
-  total = 0
+  result = true
   i = 0
   while i < source.length do
-    total += source[i]
+    result &= source[i]
     i += 1
   end
   total
