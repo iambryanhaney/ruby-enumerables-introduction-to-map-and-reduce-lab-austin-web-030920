@@ -11,6 +11,10 @@ def map_to_negativize(source)
 end
 
 def map_to_no_change(source)
+  source
+end
+
+def map_to_negativize(source)
   result = []
   i = 0
   while i < source.length do
